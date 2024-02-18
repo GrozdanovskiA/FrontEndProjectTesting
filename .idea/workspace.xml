@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd5fd085-d31d-470e-b3d4-90bdba75b846" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/LoginPageTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,12 @@
     "last_opened_file_path": "C:/Users/GROZDAN/IdeaProjects/FrontEndProjectTesting/src"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GROZDAN\IdeaProjects\FrontEndProjectTesting\src" />
+      <recent name="C:\Users\GROZDAN\IdeaProjects\FrontEndProjectTesting\src\main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="LoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FrontEndProjectTesting" />
