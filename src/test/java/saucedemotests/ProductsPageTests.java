@@ -51,9 +51,18 @@ public class ProductsPageTests {
         assertEquals("Price (high to low)",productsPage.getOrderingDropdownText());
         assertEquals("$49.99", productsPage.getMostExpensivePriceText());
     }
-
-
-
+    @Test
+    public void orderingFromZToATest(){
+        productsPage.selectOrderingDropDownOption(1);
+        assertEquals("Name (Z to A)",productsPage.getOrderingDropdownText());
+        assertEquals("$15.99", productsPage.getMostExpensivePriceText());
+    }
+    @Test
+    public void orderingFromAToATest(){
+        productsPage.selectOrderingDropDownOption(0);
+        assertEquals("Name (A to Z)",productsPage.getOrderingDropdownText());
+        assertEquals("$29.99", productsPage.getMostExpensivePriceText());
+    }
     @After
     public void tearDown() {
         driver.quit();

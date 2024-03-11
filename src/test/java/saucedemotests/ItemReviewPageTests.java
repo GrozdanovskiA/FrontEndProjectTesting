@@ -52,6 +52,20 @@ public class ItemReviewPageTests {
         assertFalse(itemReviewPage.isItemCartCountDisplayed());
 
     }
+    @Test
+    public void checkBikeLightItemSeparatelyTest(){
+        productsPage.clickAddBikeToCartButton();
+        productsPage.clickOnBikeLightTitle();
+        itemReviewPage.getItemTitleText();
+
+        assertEquals("#e2231a", itemReviewPage.getRemoveBikeLightButtonColor());
+        assertEquals("Sauce Labs Bike Light", itemReviewPage.getItemTitleText());
+        assertEquals("A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.", itemReviewPage.getItemDescriptionText());
+        assertEquals("$9.99", itemReviewPage.getItemPrice());
+        itemReviewPage.clickRemoveBikeLightButton();
+        assertEquals("#132322",itemReviewPage.getAddToCartBikeLightColor());
+        assertFalse(itemReviewPage.isItemCartCountDisplayed());
+    }
 
 
     @After

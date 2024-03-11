@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import java.awt.*;
 import java.util.List;
 
 public class ProductsPage {
@@ -15,6 +16,7 @@ public class ProductsPage {
     private By productsTitle = By.className("title");
     private By addBackpackToCartButton = By.id("add-to-cart-sauce-labs-backpack");
     private By clickBackpackHref = By.id("item_4_title_link");
+    private By clickBikeLightHref = By.id("item_0_title_link");
     private By addTShirtToCartButton = By.id("add-to-cart-sauce-labs-bolt-t-shirt");
     private By addBikeToCartButton = By.id("add-to-cart-sauce-labs-bike-light");
     private By removeBackpackFromCartButton = By.id("remove-sauce-labs-backpack");
@@ -44,6 +46,9 @@ public class ProductsPage {
     }
     public void clickOnBackpackTitle(){
         driver.findElement(clickBackpackHref).click();
+    }
+    public void clickOnBikeLightTitle(){
+        driver.findElement(clickBikeLightHref).click();
     }
 
     public String removeBackpackButton() {
@@ -75,4 +80,5 @@ public class ProductsPage {
     public String itemCountOnCart() {
         return driver.findElement(cartItemNumber).getText();
     }
+
 }

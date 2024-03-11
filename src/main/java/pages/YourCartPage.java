@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.Color;
 
 public class YourCartPage {
     private WebDriver driver;
@@ -91,6 +92,27 @@ public class YourCartPage {
     public String itemCountOnCart(){
         return driver.findElement(cartItemNumber).getText();
     }
+
+    public String getBikeRemoveButtonColor(){
+        Color BikeRemoveButtonColour = Color.fromString(driver.findElement(bikeRemoveButton).getCssValue("color"));
+        return BikeRemoveButtonColour.asHex();
+    }
+    public String getBikeRemoveButtonFontFamily(){
+        return driver.findElement(bikeRemoveButton).getCssValue("font-family");
+    }
+    public String getContinueButtonColor(){
+        Color ContinueButtonColour = Color.fromString(driver.findElement(continueShoppingButton).getCssValue("color"));
+        return ContinueButtonColour.asHex();
+    }
+    public String getCheckoutButtonColor(){
+        Color CheckoutButtonColour = Color.fromString(driver.findElement(checkoutButton).getCssValue("color"));
+        return CheckoutButtonColour.asHex();
+    }
+    public String getCheckoutButtonBackgroundColor(){
+        Color CheckoutButtonBackgroundColour = Color.fromString(driver.findElement(checkoutButton).getCssValue("background-color"));
+        return CheckoutButtonBackgroundColour.asHex();
+    }
+
 
 
 }

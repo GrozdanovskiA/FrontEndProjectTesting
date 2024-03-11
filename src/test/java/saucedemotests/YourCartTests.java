@@ -81,7 +81,16 @@ public class YourCartTests {
         assertEquals("1",yourCartPage.itemCountOnCart());
 
     }
-
+    @Test
+    public void removeCheckoutContinueButtonsTest(){
+        productsPage.clickAddBikeToCartButton();
+        productsPage.clickYourCartButton();
+        assertEquals("#e2231a",yourCartPage.getBikeRemoveButtonColor());
+        assertEquals("\"DM Sans\", sans-serif", yourCartPage.getBikeRemoveButtonFontFamily());
+        assertEquals("#132322", yourCartPage.getContinueButtonColor());
+        assertEquals("#132322", yourCartPage.getCheckoutButtonColor());
+        assertEquals("#3ddc91", yourCartPage.getCheckoutButtonBackgroundColor());
+    }
 
 
     @After
