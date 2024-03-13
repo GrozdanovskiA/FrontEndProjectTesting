@@ -20,7 +20,9 @@ public class LoginPageTest {
     public void setUp(){
     //initialize ChromedDriver instance
     driver = new ChromeDriver();
+    driver.manage().window().maximize();
     driver.get("https://www.saucedemo.com/");
+
 
     loginPage = new LoginPage(driver);
 
@@ -42,16 +44,6 @@ public class LoginPageTest {
         //verify login seccesful
         assertTrue(productsPage.isProductPageDisplayed());
 
-    }
-    @Test
-     public void firstErrorMsgTest(){
-        loginPage.enterUsername("asdas");
-        loginPage.enterPassword("asdasd");
-
-        loginPage.clickLoginButton();
-        System.out.println(loginPage.getErrorMsg());
-
-        assertEquals("Epic sadface: Username and password do not match any user in this service",loginPage.getErrorMsg() );
     }
 
     @Test
@@ -83,17 +75,33 @@ public class LoginPageTest {
 
         assertEquals("Epic sadface: Username is required",loginPage.getErrorMsg() );
     }
+
     @Test
-    public void fifthErrorMsgTest(){
-        loginPage.enterUsername("standard_user");
-        loginPage.enterPassword("asda");
-
+    public void errorMsgXButtonTest(){
         loginPage.clickLoginButton();
-        System.out.println(loginPage.getErrorMsg());
+        loginPage.clickErrorMsgButton();
 
-        assertEquals("Epic sadface: Username and password do not match any user in this service",loginPage.getErrorMsg() );
+        assertFalse(loginPage.isErrorMsgDisplayed());
     }
+    @Test
+    public void loginFormInitialStateUserInterfaceTest(){
+        assertEquals("#3ddc91", loginPage.getLoginButtonBackgroundColor());
+        assertEquals("16px", loginPage.getLoginButtonFontSize());
+        assertEquals("\"DM Sans\", Arial, Helvetica, sans-serif", loginPage.getLoginButtonFontType());
 
+        assertEquals("\"DM Sans\", Arial, Helvetica, sans-serif", loginPage.getUsernameFieldFontType());
+        assertEquals("14px", loginPage.getUsernameFieldFontSize());
+
+        assertEquals("\"DM Sans\", Arial, Helvetica, sans-serif", loginPage.getPasswordFieldFontType());
+        assertEquals("14px", loginPage.getPasswordFieldFontSize());
+    }
+    @Test
+    public void loginFormErrorStateUserInterfaceTest(){
+        loginPage.clickLoginButton();
+        assertEquals("#e2231a", loginPage.getUsernameFieldBorderBottomColor());
+        assertEquals("#e2231a", loginPage.getPasswordFieldBorderBottomColor());
+        assertEquals("#e2231a",loginPage.getErrorMsgContainerColor());
+    }
 
 
     @After

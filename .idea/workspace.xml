@@ -5,46 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd5fd085-d31d-470e-b3d4-90bdba75b846" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/LoginPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckoutYourInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckoutYourInformationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ItemReviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ItemReviewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/YourCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/YourCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/CheckoutYourInformationPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/CheckoutYourInformationPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/ItemReviewPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/ItemReviewPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/ProductsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/ProductsPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/YourCartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/YourCartTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="SaucedemoPagesTesting" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2cYiGH4LPqzbsUAP6btWZeQlaS3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CheckoutCompletePageTests.backHomeButtonTest.executor": "Run",
+    "JUnit.CheckoutCompletePageTests.completedOrderMessageTest.executor": "Run",
+    "JUnit.CheckoutOverviewPageTest.CheckoutOverviewCancelButtonTest.executor": "Run",
+    "JUnit.CheckoutOverviewPageTest.clichFinishButton.executor": "Run",
+    "JUnit.CheckoutOverviewPageTest.executor": "Run",
+    "JUnit.CheckoutOverviewPageTest.itemCheckoutOverviewTest.executor": "Run",
+    "JUnit.CheckoutOverviewPageTest.itemPriceTest.executor": "Run",
+    "JUnit.CheckoutOverviewPageTest.itemTitleTest.executor": "Run",
+    "JUnit.CheckoutYourInformationPageTests.continueButtonInterfaceTest.executor": "Run",
+    "JUnit.CheckoutYourInformationPageTests.errorMsgForLastName.executor": "Run",
+    "JUnit.CheckoutYourInformationPageTests.errorMsgForPostalCode.executor": "Run",
+    "JUnit.CheckoutYourInformationPageTests.errorMsgForUsername.executor": "Run",
+    "JUnit.CheckoutYourInformationPageTests.executor": "Run",
+    "JUnit.CheckoutYourInformationPageTests.succesfulCheckout.executor": "Run",
+    "JUnit.ItemReviewPageTests.checkBackpackItemSeparatelyTest.executor": "Run",
+    "JUnit.ItemReviewPageTests.checkBikeLightItemSeparatelyTest.executor": "Run",
+    "JUnit.LoginPageParameterizedTests.executor": "Run",
+    "JUnit.LoginPageTest.errorMsgInvalidUsernameAndPasswordTest.executor": "Run",
+    "JUnit.LoginPageTest.errorMsgParameterizedTest.executor": "Run",
+    "JUnit.LoginPageTest.errorMsgXButtonTest.executor": "Run",
     "JUnit.LoginPageTest.executor": "Run",
+    "JUnit.LoginPageTest.firstErrorMsgTest.executor": "Run",
+    "JUnit.LoginPageTest.loginFormErrorStateUserInterfaceTest.executor": "Run",
+    "JUnit.LoginPageTest.loginFormInitialStateUserInterfaceTest.executor": "Run",
+    "JUnit.LoginPageTest.succesfulLoginTest.executor": "Run",
+    "JUnit.ProductsPageTests.addToCartButtonTest.executor": "Run",
+    "JUnit.ProductsPageTests.burgerMenuTest.executor": "Debug",
+    "JUnit.ProductsPageTests.orderingDropDownTest.executor": "Run",
+    "JUnit.ProductsPageTests.orderingFromAToATest.executor": "Run",
+    "JUnit.ProductsPageTests.orderingFromAToZTest.executor": "Run",
+    "JUnit.ProductsPageTests.orderingFromHighToLowPriceTest.executor": "Run",
+    "JUnit.ProductsPageTests.orderingFromZToATest.executor": "Run",
+    "JUnit.SIdeBarMenuTests.hoverOnAllItems.executor": "Run",
+    "JUnit.YourCartTests.addItemToYourCartAndRemoveIt.executor": "Run",
+    "JUnit.YourCartTests.addOneItemToYourCartAndRemoveIt.executor": "Run",
+    "JUnit.YourCartTests.addTwoItemsToYourCart.executor": "Run",
+    "JUnit.YourCartTests.checkoutButtonTest.executor": "Run",
+    "JUnit.YourCartTests.continueShopingButtonTest.executor": "Run",
+    "JUnit.YourCartTests.removeCheckoutContinueButtonsTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "SaucedemoHomework",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/GROZDAN/IdeaProjects/FrontEndProjectTesting/src"
+    "last_opened_file_path": "C:/Users/GROZDAN/IdeaProjects/FrontEndProjectTesting/src/test",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GROZDAN\IdeaProjects\FrontEndProjectTesting\src\test" />
+      <recent name="C:\Users\GROZDAN\IdeaProjects\FrontEndProjectTesting\src\main\java" />
       <recent name="C:\Users\GROZDAN\IdeaProjects\FrontEndProjectTesting\src" />
       <recent name="C:\Users\GROZDAN\IdeaProjects\FrontEndProjectTesting\src\main" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="LoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProductsPageTests.burgerMenuTest">
+    <configuration name="ItemReviewPageTests.checkBackpackItemSeparatelyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FrontEndProjectTesting" />
       <extension name="coverage">
         <pattern>
@@ -53,17 +119,93 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="saucedemotests" />
-      <option name="MAIN_CLASS_NAME" value="saucedemotests.LoginPageTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="saucedemotests.ItemReviewPageTests" />
+      <option name="METHOD_NAME" value="checkBackpackItemSeparatelyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemReviewPageTests.checkBikeLightItemSeparatelyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FrontEndProjectTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemotests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemotests" />
+      <option name="MAIN_CLASS_NAME" value="saucedemotests.ItemReviewPageTests" />
+      <option name="METHOD_NAME" value="checkBikeLightItemSeparatelyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsPageTests.burgerMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FrontEndProjectTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemotests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemotests" />
+      <option name="MAIN_CLASS_NAME" value="saucedemotests.ProductsPageTests" />
+      <option name="METHOD_NAME" value="burgerMenuTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsPageTests.orderingFromAToATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FrontEndProjectTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemotests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemotests" />
+      <option name="MAIN_CLASS_NAME" value="saucedemotests.ProductsPageTests" />
+      <option name="METHOD_NAME" value="orderingFromAToATest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsPageTests.orderingFromHighToLowPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FrontEndProjectTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemotests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemotests" />
+      <option name="MAIN_CLASS_NAME" value="saucedemotests.ProductsPageTests" />
+      <option name="METHOD_NAME" value="orderingFromHighToLowPriceTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginPageTest" />
+        <item itemvalue="JUnit.ProductsPageTests.burgerMenuTest" />
+        <item itemvalue="JUnit.ProductsPageTests.orderingFromAToATest" />
+        <item itemvalue="JUnit.ProductsPageTests.orderingFromHighToLowPriceTest" />
+        <item itemvalue="JUnit.ItemReviewPageTests.checkBikeLightItemSeparatelyTest" />
+        <item itemvalue="JUnit.ItemReviewPageTests.checkBackpackItemSeparatelyTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,5 +217,16 @@
       <updated>1708294817455</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
