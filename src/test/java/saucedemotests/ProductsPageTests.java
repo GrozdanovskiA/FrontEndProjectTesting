@@ -20,6 +20,7 @@ public class ProductsPageTests {
     @Before
     public void setUp(){
         driver = new ChromeDriver();
+
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");
 
@@ -62,6 +63,12 @@ public class ProductsPageTests {
         productsPage.selectOrderingDropDownOption(0);
         assertEquals("Name (A to Z)",productsPage.getOrderingDropdownText());
         assertEquals("$29.99", productsPage.getMostExpensivePriceText());
+    }
+    @Test
+    public void testBackpackTitleTextColors(){
+        assertEquals("#18583a", productsPage.getColorFromBackpackTitle());
+        productsPage.hoverElement();
+        assertEquals("#3ddc91", productsPage.getColorFromBackpackTitle());
     }
     @After
     public void tearDown() {
