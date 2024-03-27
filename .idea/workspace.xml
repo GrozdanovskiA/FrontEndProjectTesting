@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd5fd085-d31d-470e-b3d4-90bdba75b846" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckoutYourInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckoutYourInformationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ItemReviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ItemReviewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/YourCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/YourCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/CheckoutYourInformationPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/CheckoutYourInformationPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/ItemReviewPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/ItemReviewPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SideBarMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SideBarMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/ProductsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/ProductsPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/YourCartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/YourCartTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemotests/SIdeBarMenuTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemotests/SIdeBarMenuTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +28,16 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="SaucedemoPagesTesting" />
+        <entry key="$PROJECT_DIR$" value="SaucedemoHomework" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -65,6 +66,12 @@
     "JUnit.CheckoutYourInformationPageTests.errorMsgForUsername.executor": "Run",
     "JUnit.CheckoutYourInformationPageTests.executor": "Run",
     "JUnit.CheckoutYourInformationPageTests.succesfulCheckout.executor": "Run",
+    "JUnit.DatabaseTest.deleteARecord.executor": "Run",
+    "JUnit.DatabaseTest.executor": "Run",
+    "JUnit.DatabaseTest.insertAUserRecord.executor": "Run",
+    "JUnit.DatabaseTest.testUserRecord.executor": "Run",
+    "JUnit.DatabaseTest.testUserRecord2.executor": "Run",
+    "JUnit.DatabaseTest.testUserRecord3.executor": "Run",
     "JUnit.ItemReviewPageTests.checkBackpackItemSeparatelyTest.executor": "Run",
     "JUnit.ItemReviewPageTests.checkBikeLightItemSeparatelyTest.executor": "Run",
     "JUnit.LoginPageParameterizedTests.executor": "Run",
@@ -83,6 +90,8 @@
     "JUnit.ProductsPageTests.orderingFromAToZTest.executor": "Run",
     "JUnit.ProductsPageTests.orderingFromHighToLowPriceTest.executor": "Run",
     "JUnit.ProductsPageTests.orderingFromZToATest.executor": "Run",
+    "JUnit.ProductsPageTests.testBackpackTitleTextColors.executor": "Run",
+    "JUnit.SIdeBarMenuTests.aboutFuncionalityAndHoverColor.executor": "Run",
     "JUnit.SIdeBarMenuTests.hoverOnAllItems.executor": "Run",
     "JUnit.YourCartTests.addItemToYourCartAndRemoveIt.executor": "Run",
     "JUnit.YourCartTests.addOneItemToYourCartAndRemoveIt.executor": "Run",
@@ -93,7 +102,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SaucedemoHomework",
+    "git-widget-placeholder": "DatabaseTests",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/GROZDAN/IdeaProjects/FrontEndProjectTesting/src/test",
     "project.structure.last.edited": "Project",
@@ -109,82 +118,52 @@
       <recent name="C:\Users\GROZDAN\IdeaProjects\FrontEndProjectTesting\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductsPageTests.burgerMenuTest">
-    <configuration name="ItemReviewPageTests.checkBackpackItemSeparatelyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DatabaseTest.testUserRecord3">
+    <configuration name="DatabaseTest.deleteARecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FrontEndProjectTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemotests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemotests" />
-      <option name="MAIN_CLASS_NAME" value="saucedemotests.ItemReviewPageTests" />
-      <option name="METHOD_NAME" value="checkBackpackItemSeparatelyTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="deleteARecord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemReviewPageTests.checkBikeLightItemSeparatelyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.insertAUserRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FrontEndProjectTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemotests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemotests" />
-      <option name="MAIN_CLASS_NAME" value="saucedemotests.ItemReviewPageTests" />
-      <option name="METHOD_NAME" value="checkBikeLightItemSeparatelyTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="insertAUserRecord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductsPageTests.burgerMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testUserRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FrontEndProjectTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemotests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemotests" />
-      <option name="MAIN_CLASS_NAME" value="saucedemotests.ProductsPageTests" />
-      <option name="METHOD_NAME" value="burgerMenuTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="testUserRecord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductsPageTests.orderingFromAToATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testUserRecord2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FrontEndProjectTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemotests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemotests" />
-      <option name="MAIN_CLASS_NAME" value="saucedemotests.ProductsPageTests" />
-      <option name="METHOD_NAME" value="orderingFromAToATest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="testUserRecord2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductsPageTests.orderingFromHighToLowPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testUserRecord3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FrontEndProjectTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemotests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemotests" />
-      <option name="MAIN_CLASS_NAME" value="saucedemotests.ProductsPageTests" />
-      <option name="METHOD_NAME" value="orderingFromHighToLowPriceTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="testUserRecord3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductsPageTests.burgerMenuTest" />
-        <item itemvalue="JUnit.ProductsPageTests.orderingFromAToATest" />
-        <item itemvalue="JUnit.ProductsPageTests.orderingFromHighToLowPriceTest" />
-        <item itemvalue="JUnit.ItemReviewPageTests.checkBikeLightItemSeparatelyTest" />
-        <item itemvalue="JUnit.ItemReviewPageTests.checkBackpackItemSeparatelyTest" />
+        <item itemvalue="JUnit.DatabaseTest.testUserRecord3" />
+        <item itemvalue="JUnit.DatabaseTest.testUserRecord2" />
+        <item itemvalue="JUnit.DatabaseTest.testUserRecord" />
+        <item itemvalue="JUnit.DatabaseTest.deleteARecord" />
+        <item itemvalue="JUnit.DatabaseTest.insertAUserRecord" />
       </list>
     </recent_temporary>
   </component>

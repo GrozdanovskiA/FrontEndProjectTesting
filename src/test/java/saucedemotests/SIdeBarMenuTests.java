@@ -9,6 +9,8 @@ import pages.LoginPage;
 import pages.ProductsPage;
 import pages.SideBarMenu;
 
+import static org.junit.Assert.assertEquals;
+
 public class SIdeBarMenuTests {
     private WebDriver driver;
     private LoginPage loginPage;
@@ -29,13 +31,16 @@ public class SIdeBarMenuTests {
         loginPage.enterPassword("secret_sauce");
 
         loginPage.clickLoginButton();
+        productsPage.burgerMenuClick();
     }
 
-//    @Test
-//    public void hoverOnAllItems(){
-//        productsPage.burgerMenuClick();
-//        sideBarMenu.hoverOnAllItems();
-//    }
+    @Test
+    public void aboutFuncionalityAndHoverColor() throws InterruptedException {
+        Thread.sleep(500);
+        sideBarMenu.hoverAboutElement();
+        assertEquals("#3ddc91",sideBarMenu.getColorFromAboutTitle());
+        assertEquals("https://saucelabs.com/",sideBarMenu.getHrefFromAbout());
+}
 
 
 
